@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fact3Screen">
+
+    <TextView
+        android:id="@+id/Fact3Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="Fact #3:" />
+
+    <ImageView
+        android:id="@+id/squiggy_mafia_img"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        app:srcCompat="@drawable/squiggy_mafia" />
+
+    <TextView
+        android:id="@+id/fact3Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:text="Sometimes, Squiggy holds worms like a cigar.  He is a mafia boss with tiny hands.  (He looks scary in this picture and he is proud of it.)" />
+
+    <Button
+        android:id="@+id/nextFactBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Next Fact" />
+</LinearLayout>
