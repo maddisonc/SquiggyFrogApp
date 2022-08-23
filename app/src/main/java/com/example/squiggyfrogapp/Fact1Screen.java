@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -32,7 +33,7 @@ public class Fact1Screen extends AppCompatActivity {
             public void onClick (View v)
             {
                 startActivity(new Intent(Fact1Screen.this, Fact2Screen.class));
-
+                Log.i("info", "next1 pressed");
             } // end onCLick
         });
     } // end next button handler

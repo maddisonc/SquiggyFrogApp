@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v)
             {
                 startActivity(new Intent(MainActivity.this, Fact1Screen.class));
-
+                Log.i("info", "start pressed");
             } // end onCLick
         });
     } // end start button handler
