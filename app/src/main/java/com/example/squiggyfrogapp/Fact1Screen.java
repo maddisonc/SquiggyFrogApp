@@ -26,8 +26,8 @@ public class Fact1Screen extends AppCompatActivity {
 
     private void nextBtnPressed ()
     {
-        Button startButton = (Button) findViewById(R.id.nextFactBtn);
-        startButton.setOnClickListener(new View.OnClickListener() {
+        Button next = (Button) findViewById(R.id.nextFactBtn);
+        next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View v)
             {
