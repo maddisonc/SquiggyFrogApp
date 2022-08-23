@@ -35,6 +35,6 @@ public class Fact2Screen extends AppCompatActivity {
 
             } // end onCLick
         });
-    } // end start button handler
+    } // end next button handler
 
 }

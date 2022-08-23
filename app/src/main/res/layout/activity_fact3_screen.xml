@@ -33,7 +33,7 @@
         android:text="Sometimes, Squiggy holds worms like a cigar.  He is a mafia boss with tiny hands.  (He looks scary in this picture and he is proud of it.)" />
 
     <Button
-        android:id="@+id/nextFactBtn3"
+        android:id="@+id/backMainBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
