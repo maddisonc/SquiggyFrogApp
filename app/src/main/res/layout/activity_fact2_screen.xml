@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fact2Screen">
+
+    <TextView
+        android:id="@+id/Fact2Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="Fact #2:" />
+
+    <ImageView
+        android:id="@+id/squiggy_eyes"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/squiggy_eyes" />
+
+    <TextView
+        android:id="@+id/fact2Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="The size of Squiggy's pupils change based on his environment.  In the dark, his pupils are much larger." />
+
+    <Button
+        android:id="@+id/nextFactBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Next Fact" />
+</LinearLayout>
