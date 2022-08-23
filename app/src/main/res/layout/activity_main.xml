@@ -18,14 +18,14 @@
         android:textSize="30sp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/squiggy_main_img"
         android:layout_width="match_parent"
         android:layout_height="368dp"
         app:srcCompat="@drawable/squiggy_main"
         android:padding="20dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/descText"
         android:layout_width="371dp"
         android:layout_height="wrap_content"
         android:text="Today you will learn facts about the best frog in the world...Squiggy!"

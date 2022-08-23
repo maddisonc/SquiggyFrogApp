@@ -18,7 +18,7 @@
         android:text="Fact #2:" />
 
     <ImageView
-        android:id="@+id/squiggy_eyes"
+        android:id="@+id/squiggy_eyes_img"
         android:layout_width="match_parent"
         android:layout_height="312dp"
         android:layout_marginBottom="20dp"
