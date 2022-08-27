@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#FAE5FF">
 
     <TextView
         android:id="@+id/titleText"
@@ -15,6 +16,7 @@
         android:layout_marginBottom="15dp"
         android:text="Squiggy The Frog"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="30sp" />
 
     <ImageView
@@ -31,6 +33,7 @@
         android:layout_margin="10dp"
         android:text="Today you will learn facts about the best frog in the world...Squiggy!"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="25dp" />
 
     <Button

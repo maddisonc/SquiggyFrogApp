@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Fact3Screen">
+    tools:context=".Fact3Screen"
+    android:background="#FAE5FF">
 
     <TextView
         android:id="@+id/Fact3Title"
@@ -15,6 +16,7 @@
         android:textAlignment="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
         android:text="Fact #3:" />
 
     <ImageView
@@ -30,6 +32,7 @@
         android:textSize="22dp"
         android:textAlignment="center"
         android:layout_margin="20dp"
+        android:textColor="@color/black"
         android:text="Sometimes, Squiggy holds worms like a cigar.  He is a mafia boss with tiny hands.  (He looks scary in this picture and he is proud of it.)" />
 
     <Button

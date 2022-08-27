@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Fact1Screen">
+    tools:context=".Fact1Screen"
+    android:background="#FAE5FF">
 
     <TextView
         android:id="@+id/Fact1Title"
@@ -15,6 +16,7 @@
         android:textAlignment="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
         android:text="Fact #1:" />
 
     <ImageView
@@ -30,6 +32,7 @@
         android:layout_height="wrap_content"
         android:textSize="30dp"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:text="Squiggy is my son. He eats worms." />
 
     <Button
