@@ -39,10 +39,13 @@
 
     <Button
         android:id="@+id/nextFactBtn"
-        android:fontFamily="@font/dynapuff"
         android:layout_width="218dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:text="Next Fact" />
+        android:layout_marginTop="20dp"
+        android:background="#CCB9F8"
+        android:textSize="20sp"
+        android:fontFamily="@font/dynapuff"
+        android:text="Next Fact"
+         />
 </LinearLayout>

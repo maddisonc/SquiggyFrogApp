@@ -13,8 +13,8 @@
         android:fontFamily="@font/dynapuff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:text="Squiggy The Frog"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -44,7 +44,9 @@
         android:layout_width="218dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:text="Start" />
+        android:layout_marginTop="5dp"
+        android:text="Start"
+        android:background="#CCB9F8"
+        android:textSize="20sp"/>
 
 </LinearLayout>
